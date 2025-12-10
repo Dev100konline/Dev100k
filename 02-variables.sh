@@ -7,6 +7,7 @@ PERSON1=Ram
 echo $PERSON1 "first person"
 echo "please enter PIN"
 read -s PIN
+echo "Thank you for entering PIN"
 read PIN2
 
 echo "you pin is $PIN"
