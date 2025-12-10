@@ -1,7 +1,15 @@
 #!/bin/bash
 
-person1=ram
-person2=sai
+per1=$2
+per2=$1
 
 echo $person1 "first person"
-echo "second person is $person2"
+echo "please enter PIN"
+read pin
+echo "you pin is $pin"
+
+echo $per1
+echo $per2
+
+echo $per1 + $per2
+echo $(($per1+$per2))
